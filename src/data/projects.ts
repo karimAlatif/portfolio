@@ -386,13 +386,13 @@ export const projects: Project[] = [
     link: "https://drive.google.com/file/d/1IZKhaHfWhgzXN80pHVjdvJFUoU_ek9CT/view?usp=drivesdk",
     linkType: "video",
     color: "#f59e0b",
-    mainImage: "/projects/Cesium + Babylon.js Integration/img0.png",
+    mainImage: "/projects/Cesium Babylon.js Integration/img0.png",
     galleryImages: [
-      "/projects/Cesium + Babylon.js Integration/img1.png",
-      "/projects/Cesium + Babylon.js Integration/img2.png",
-      "/projects/Cesium + Babylon.js Integration/img3.png",
+      "/projects/Cesium Babylon.js Integration/img1.png",
+      "/projects/Cesium Babylon.js Integration/img2.png",
+      "/projects/Cesium Babylon.js Integration/img3.png",
     ],
-    videos: ["/projects/Cesium + Babylon.js Integration/Recording.mp4"],
+    videos: ["/projects/Cesium Babylon.js Integration/Recording.mp4"],
   },
   {
     id: "bts-simulation",
