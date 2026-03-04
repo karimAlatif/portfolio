@@ -31,11 +31,10 @@ export const projects: Project[] = [
   {
     id: "shed-configurator-v2",
     title: "Shed Configurator-V2",
-    description:
-      "Convert your 2D floorplan into a 3D model and integrate actions to each floor. Built with React.js, Fabric.js, and Babylon.js.",
+    description: `Shed Configurator is a real-time 3D web application that allows users to design and customize sheds interactively. Users can adjust dimensions, materials, and colors, with changes instantly reflected in 3D environment. Built with React and Babylon.js.`,
     longDescription:
       "A comprehensive tool that transforms 2D floorplans into fully interactive 3D models. Users can upload their floorplan, define rooms and spaces, then watch as the application generates a detailed 3D representation. Each floor supports interactive actions, allowing users to navigate, customize materials, and visualize their space in real-time.",
-    tags: ["React", "Babylon.js", "Fabric.js"],
+    tags: ["React", "Babylon.js", "WEBGPU"],
     link: "https://bit.ly/3qrx7Ps",
     linkType: "live",
     color: "#22d3ee",
@@ -52,6 +51,28 @@ export const projects: Project[] = [
       "/projects/Shed Configurator-V2/img9.png",
     ],
     videos: ["/projects/Shed Configurator-V2/Recording.mp4"],
+  },
+  {
+    id: "farmverse",
+    title: "FarmVerse 3D",
+    description:
+      "FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.",
+    longDescription:
+      `FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.
+       Built as a real-time 3D web experience, the project combines environmental simulation, IoT integration, and intelligent monitoring to demonstrate how robotics and digital twins can optimize modern agriculture.`,
+    tags: ["React", "Babylon.js", "WEBGPU"],
+    link: "https://roomvisualization.netlify.app/",
+    linkType: "live",
+    color: "#59e0b0",
+    mainImage: "/projects/FarmVerse 3D/img0.png",
+    galleryImages: [
+      "/projects/FarmVerse 3D/img1.png",
+      "/projects/FarmVerse 3D/img2.png",
+      "/projects/FarmVerse 3D/img3.png",
+      "/projects/FarmVerse 3D/img4.png",
+      "/projects/FarmVerse 3D/img5.png",
+    ],
+    videos: ["/projects/FarmVerse 3D/Recording.mp4"],
   },
   {
     id: "apartment-generator",
