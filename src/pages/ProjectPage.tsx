@@ -6,6 +6,12 @@ import {
   getAdjacentProjects,
   type Project,
 } from "@/data/projects";
+import {
+  isVimeoUrl,
+  getVimeoEmbedUrl,
+  isGoogleDriveUrl,
+  getGoogleDriveEmbedUrl,
+} from "@/lib/utils";
 
 /* ------------------------------------------------------------------ */
 /*  Image Lightbox                                                     */
@@ -475,13 +481,31 @@ const ProjectPage = () => {
                     className="relative rounded-2xl overflow-hidden glass"
                   >
                     <div className="aspect-video">
-                      <video
-                        src={videoSrc}
-                        controls
-                        className="w-full h-full object-fill"
-                        preload="metadata"
-                        playsInline
-                      />
+                      {isVimeoUrl(videoSrc) ? (
+                        <iframe
+                          src={getVimeoEmbedUrl(videoSrc)}
+                          className="w-full h-full"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowFullScreen
+                          title={`${project.title} video ${i + 1}`}
+                        />
+                      ) : isGoogleDriveUrl(videoSrc) ? (
+                        <iframe
+                          src={getGoogleDriveEmbedUrl(videoSrc)}
+                          className="w-full h-full"
+                          allow="autoplay"
+                          allowFullScreen
+                          title={`${project.title} video ${i + 1}`}
+                        />
+                      ) : (
+                        <video
+                          src={videoSrc}
+                          controls
+                          className="w-full h-full object-fill"
+                          preload="metadata"
+                          playsInline
+                        />
+                      )}
                     </div>
                   </div>
                 ))}

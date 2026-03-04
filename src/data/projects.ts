@@ -50,7 +50,7 @@ export const projects: Project[] = [
       "/projects/Shed Configurator-V2/img8.png",
       "/projects/Shed Configurator-V2/img9.png",
     ],
-    videos: ["/projects/Shed Configurator-V2/Recording.mp4"],
+    videos: ["https://vimeo.com/1170122493?share=copy&fl=sv&fe=ci"],
   },
   {
     id: "farmverse",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "/projects/FarmVerse 3D/img4.png",
       "/projects/FarmVerse 3D/img5.png",
     ],
-    videos: ["/projects/FarmVerse 3D/Recording.mp4"],
+    videos: ["https://vimeo.com/1170122849?fl=pl&fe=sh"],
   },
   {
     id: "apartment-generator",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
       "/projects/Apartment Generator/img3.png",
       "/projects/Apartment Generator/img4.png",
     ],
-    videos: ["/projects/Apartment Generator/FloorPlanTo3d.mp4"],
+    videos: ["https://drive.google.com/file/d/1-RDLcDKLPKOFxdh0Z0snncGskvy9q-JH/view"],
   },
   {
     id: "shirt-configurator",
@@ -132,7 +132,7 @@ export const projects: Project[] = [
       "/projects/Room Simulation/img5.png",
       "/projects/Room Simulation/img6.png",
     ],
-    videos: ["/projects/Room Simulation/FinalGradVideo.mp4"],
+    videos: ["https://drive.google.com/file/d/1pZwiR8Lqh-8FEo2yQtYxlvcoueP1TSz3/view?usp=sharing"],
   },
   {
     id: "smart-city",
@@ -168,7 +168,7 @@ export const projects: Project[] = [
       "/projects/Shed Configurator-V1/img5.png",
       "/projects/Shed Configurator-V1/img6.png",
     ],
-    videos: ["/projects/Shed Configurator-V1/shieldProject2.mp4"],
+    videos: ["https://drive.google.com/file/d/18pXkQnHbyDeK9lZF9xiBSf33QsTwd7I2/view?usp=sharing"],
   },
   {
     id: "3d-avatar",
@@ -434,6 +434,6 @@ export const projects: Project[] = [
       "/projects/Elevator Simulation/img4.png",
       "/projects/Elevator Simulation/img5.png",
     ],
-    videos: ["/projects/Elevator Simulation/Elevator Simulator.mp4"],
+    videos: ["https://drive.google.com/file/d/1st3xLQSnrqtrUA37W4Cuz9H_sroEzPVu/preview"],
   },
 ];
