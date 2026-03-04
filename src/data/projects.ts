@@ -35,7 +35,7 @@ export const projects: Project[] = [
     longDescription:
       "A comprehensive tool that transforms 2D floorplans into fully interactive 3D models. Users can upload their floorplan, define rooms and spaces, then watch as the application generates a detailed 3D representation. Each floor supports interactive actions, allowing users to navigate, customize materials, and visualize their space in real-time.",
     tags: ["React", "Babylon.js", "WEBGPU"],
-    link: "https://bit.ly/3qrx7Ps",
+    link: "https://dashing-duckanoo-b51ade.netlify.app/",
     linkType: "live",
     color: "#22d3ee",
     mainImage: "/projects/Shed Configurator-V2/img0.png",

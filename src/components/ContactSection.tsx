@@ -2,9 +2,21 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const links = [
-  { label: "Email", href: "mailto:karim@example.com", display: "karim@example.com" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/karim", display: "linkedin.com/in/karim" },
-  { label: "GitHub", href: "https://github.com/karim", display: "github.com/karim" },
+  {
+    label: "Email",
+    href: "mailto:karim_abdel-latif@outlook.com",
+    display: "karim_abdel-latif@outlook.com",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/karim-a-latif-b56142172/",
+    display: "linkedin.com/in/karim-a-latif",
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/karimAlatif",
+    display: "github.com/karimAlatif",
+  },
 ];
 
 const ContactSection = () => {
@@ -60,7 +72,7 @@ const ContactSection = () => {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.6 }}
-          href="#"
+          href="/projects/Karim_AbdelLatif_Resume.pdf"
           className="inline-block font-mono text-xs tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors border-b border-border hover:border-primary/50 pb-1"
         >
           Download CV ↓
