@@ -46,7 +46,7 @@ const FeaturedCard = ({ project }: { project: Project }) => {
           />
 
           {/* Video badge */}
-          {project.videos.length > 0 && (
+          {project.linkType === "video" && (
             <div className="absolute top-4 left-4 flex items-center gap-2 glass rounded-full px-3 py-1.5">
               <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
               <span className="text-[10px] font-mono tracking-wider uppercase">

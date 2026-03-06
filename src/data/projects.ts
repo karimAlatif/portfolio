@@ -111,7 +111,9 @@ export const projects: Project[] = [
       "/projects/3D Shirt Generator/img2.jpg",
       "/projects/3D Shirt Generator/img3.jpg",
     ],
-    videos: [],
+    videos: [
+      "https://vimeo.com/1171047842?fl=pl&fe=cm"
+    ],
   },
   {
     id: "room-simulation",
@@ -158,7 +160,7 @@ export const projects: Project[] = [
       "A powerful 3D shed configurator that enables users to design custom sheds tailored to their exact specifications. Choose dimensions, materials, roof styles, doors, windows, and finishes — all visualized in real-time 3D. The configurator ensures designs meet both aesthetic preferences and structural requirements.",
     tags: ["React", "Babylon.js"],
     link: "https://bit.ly/3Vb0HYg",
-    linkType: "video",
+    linkType: "live",
     color: "#3b82f6",
     mainImage: "/projects/Shed Configurator-V1/img1.png",
     galleryImages: [
@@ -361,7 +363,7 @@ export const projects: Project[] = [
     longDescription:
       "An innovative cushion configurator utilizing morphing technology for real-time shape customization. Users can adjust firmness, shape, size, and materials while watching the 3D model morph smoothly between configurations. The technology enables parametric design directly in the browser.",
     tags: ["React", "Babylon.js", "Morphing"],
-    link: "https://bit.ly/32odWy4",
+    link: "https://vigilant-turing-59086a.netlify.app/",
     linkType: "live",
     color: "#f43f5e",
     mainImage: "/projects/Cushion Configurator/img4.png",
