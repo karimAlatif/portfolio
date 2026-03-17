@@ -11,6 +11,10 @@ const skillCategories = [
     skills: ["Babylon.js", "Three.js", "Unity", "WebGPU", "GLTF/glTF"],
   },
   {
+    title: "GIS & Mapping",
+    skills: ["Cesium", "Mapbox", "Google Maps API"],
+  },
+  {
     title: "Systems & Backend",
     skills: ["REST API", "WebSockets", "IoT Platforms", "Firebase", "Node.js"],
   },
@@ -59,7 +63,10 @@ const SkillsSection = () => {
                     key={skill}
                     initial={{ opacity: 0, x: -10 }}
                     animate={inView ? { opacity: 1, x: 0 } : {}}
-                    transition={{ duration: 0.4, delay: ci * 0.15 + si * 0.05 + 0.3 }}
+                    transition={{
+                      duration: 0.4,
+                      delay: ci * 0.15 + si * 0.05 + 0.3,
+                    }}
                     className="flex items-center gap-3 group"
                   >
                     <div className="w-1 h-1 rounded-full bg-primary/60 group-hover:bg-primary group-hover:glow-dot transition-all" />
