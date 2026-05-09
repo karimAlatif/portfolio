@@ -53,12 +53,33 @@ export const projects: Project[] = [
     videos: ["https://vimeo.com/1170122493?share=copy&fl=sv&fe=ci"],
   },
   {
+    id: "floorplan-generator-v2",
+    title: "Floor Plan Generator-V2",
+    description: `Floor Plan Generator is a real-time 3D web application that allows users to design and customize floor plans interactively. Users can adjust dimensions, materials, and colors, with changes instantly reflected in 3D environment. Built with React and Babylon.js.`,
+    longDescription:
+      "A comprehensive tool that transforms 2D floorplans into fully interactive 3D models. Users can upload their floorplan, define rooms and spaces, then watch as the application generates a detailed 3D representation. Each floor supports interactive actions, allowing users to navigate, customize materials, and visualize their space in real-time.",
+    tags: ["React", "Babylon.js", "WEBGPU"],
+    link: "https://floorplangenerator.netlify.app/",
+    linkType: "live",
+    color: "#006eff",
+    mainImage: "/projects/floorplan 2/img6.png",
+    galleryImages: [
+      "/projects/floorplan 2/img1.png",
+      "/projects/floorplan 2/img2.png",
+      "/projects/floorplan 2/img3.png",
+      "/projects/floorplan 2/img4.png",
+      "/projects/floorplan 2/img5.png",
+      "/projects/floorplan 2/img6.png",
+      "/projects/floorplan 2/img7.png",
+    ],
+    videos: ["https://vimeo.com/1190763026?share=copy&fl=sv&fe=ci"],
+  },
+  {
     id: "farmverse",
     title: "FarmVerse 3D",
     description:
       "FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.",
-    longDescription:
-      `FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.
+    longDescription: `FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.
        Built as a real-time 3D web experience, the project combines environmental simulation, IoT integration, and intelligent monitoring to demonstrate how robotics and digital twins can optimize modern agriculture.`,
     tags: ["React", "Babylon.js", "WEBGPU"],
     link: "https://roomvisualization.netlify.app/",
@@ -73,26 +94,6 @@ export const projects: Project[] = [
       "/projects/FarmVerse 3D/img5.png",
     ],
     videos: ["https://vimeo.com/1170122849?fl=pl&fe=sh"],
-  },
-  {
-    id: "apartment-generator",
-    title: "Apartment Generator",
-    description:
-      "Convert your 2D floorplan into a 3D model and integrate actions to each floor. Built with React.js, Fabric.js, and Babylon.js.",
-    longDescription:
-      "A comprehensive tool that transforms 2D floorplans into fully interactive 3D models. Users can upload their floorplan, define rooms and spaces, then watch as the application generates a detailed 3D representation. Each floor supports interactive actions, allowing users to navigate, customize materials, and visualize their space in real-time.",
-    tags: ["React", "Babylon.js", "Fabric.js"],
-    link: "https://bit.ly/3qrx7Ps",
-    linkType: "video",
-    color: "#3b82f6",
-    mainImage: "/projects/Apartment Generator/img5.png",
-    galleryImages: [
-      "/projects/Apartment Generator/img1.png",
-      "/projects/Apartment Generator/img2.png",
-      "/projects/Apartment Generator/img3.png",
-      "/projects/Apartment Generator/img4.png",
-    ],
-    videos: ["https://drive.google.com/file/d/1-RDLcDKLPKOFxdh0Z0snncGskvy9q-JH/view"],
   },
   {
     id: "shirt-configurator",
@@ -111,9 +112,22 @@ export const projects: Project[] = [
       "/projects/3D Shirt Generator/img2.jpg",
       "/projects/3D Shirt Generator/img3.jpg",
     ],
-    videos: [
-      "https://vimeo.com/1171047842?fl=pl&fe=cm"
-    ],
+    videos: ["https://vimeo.com/1171047842?fl=pl&fe=cm"],
+  },
+  {
+    id: "stripe",
+    title: "Stripe",
+    description:
+      "clone of stripe website with 3D elements and animations using React and Three.js and GSAP.",
+    longDescription:
+      "A clone of the Stripe website featuring 3D elements and animations, built using React and Three.js and GSAP. This project demonstrates the integration of 3D graphics into a web application, enhancing the user experience with interactive and visually appealing elements.",
+    tags: ["React", "Three.js", "GSAP"],
+    link: "https://webanimati0n.netlify.app/",
+    linkType: "live",
+    color: "#ff8800",
+    mainImage: "/projects/stripe/img1.png",
+    galleryImages: ["/projects/stripe/img1.png", "/projects/stripe/img2.png"],
+    videos: ["https://vimeo.com/1190766451?share=copy&fl=sv&fe=ci"],
   },
   {
     id: "room-simulation",
@@ -134,22 +148,31 @@ export const projects: Project[] = [
       "/projects/Room Simulation/img5.png",
       "/projects/Room Simulation/img6.png",
     ],
-    videos: ["https://drive.google.com/file/d/1pZwiR8Lqh-8FEo2yQtYxlvcoueP1TSz3/view?usp=sharing"],
+    videos: [
+      "https://drive.google.com/file/d/1pZwiR8Lqh-8FEo2yQtYxlvcoueP1TSz3/view?usp=sharing",
+    ],
   },
   {
-    id: "smart-city",
-    title: "Smart City",
+    id: "apartment-generator",
+    title: "Apartment Generator",
     description:
-      "Design your city from scratch and track it with IoT platform. Build roads, traffic systems, and buildings integrated with REST API & Socket.IO.",
+      "Convert your 2D floorplan into a 3D model and integrate actions to each floor. Built with React.js, Fabric.js, and Babylon.js.",
     longDescription:
-      "A smart city Simulation platform where users can design urban environments from scratch. Features include road networks, traffic management systems, building placement, and full IoT platform integration. Real-time data streams through REST API and Socket.IO connections provide live monitoring and control of city infrastructure.",
-    tags: ["Unity", "IoT", "REST API"],
-    link: "http://bit.ly/2KdUTNe",
+      "A comprehensive tool that transforms 2D floorplans into fully interactive 3D models. Users can upload their floorplan, define rooms and spaces, then watch as the application generates a detailed 3D representation. Each floor supports interactive actions, allowing users to navigate, customize materials, and visualize their space in real-time.",
+    tags: ["React", "Babylon.js", "Fabric.js"],
+    link: "https://bit.ly/3qrx7Ps",
     linkType: "video",
-    color: "#f59e0b",
-    mainImage: "/placeholder.svg",
-    galleryImages: [],
-    videos: [],
+    color: "#3b82f6",
+    mainImage: "/projects/Apartment Generator/img5.png",
+    galleryImages: [
+      "/projects/Apartment Generator/img1.png",
+      "/projects/Apartment Generator/img2.png",
+      "/projects/Apartment Generator/img3.png",
+      "/projects/Apartment Generator/img4.png",
+    ],
+    videos: [
+      "https://drive.google.com/file/d/1-RDLcDKLPKOFxdh0Z0snncGskvy9q-JH/view",
+    ],
   },
   {
     id: "shed-configurator-v1",
@@ -170,7 +193,9 @@ export const projects: Project[] = [
       "/projects/Shed Configurator-V1/img5.png",
       "/projects/Shed Configurator-V1/img6.png",
     ],
-    videos: ["https://drive.google.com/file/d/18pXkQnHbyDeK9lZF9xiBSf33QsTwd7I2/view?usp=sharing"],
+    videos: [
+      "https://drive.google.com/file/d/18pXkQnHbyDeK9lZF9xiBSf33QsTwd7I2/view?usp=sharing",
+    ],
   },
   {
     id: "3d-avatar",
@@ -212,6 +237,25 @@ export const projects: Project[] = [
       "/projects/3D Museum/img5.png",
     ],
     videos: ["/projects/3D Museum/Recording.mp4"],
+  },
+  {
+    id: "smart-city",
+    title: "Smart City",
+    description:
+      "Design your city from scratch and track it with IoT platform. Build roads, traffic systems, and buildings integrated with REST API & Socket.IO.",
+    longDescription:
+      "A smart city Simulation platform where users can design urban environments from scratch. Features include road networks, traffic management systems, building placement, and full IoT platform integration. Real-time data streams through REST API and Socket.IO connections provide live monitoring and control of city infrastructure.",
+    tags: ["Unity", "IoT", "REST API"],
+    link: "http://bit.ly/2KdUTNe",
+    linkType: "video",
+    color: "#f59e0b",
+    mainImage: "/projects/smart-city/img2.png",
+    galleryImages: [
+      "/projects/smart-city/img0.png",
+      "/projects/smart-city/img1.png",
+      "/projects/smart-city/img2.png",
+    ],
+    videos: [],
   },
   {
     id: "cart-configurator",
@@ -436,6 +480,8 @@ export const projects: Project[] = [
       "/projects/Elevator Simulation/img4.png",
       "/projects/Elevator Simulation/img5.png",
     ],
-    videos: ["https://drive.google.com/file/d/1st3xLQSnrqtrUA37W4Cuz9H_sroEzPVu/preview"],
+    videos: [
+      "https://drive.google.com/file/d/1st3xLQSnrqtrUA37W4Cuz9H_sroEzPVu/preview",
+    ],
   },
 ];
