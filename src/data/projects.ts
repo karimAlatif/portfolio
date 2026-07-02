@@ -53,12 +53,31 @@ export const projects: Project[] = [
     videos: ["https://vimeo.com/1170122493?share=copy&fl=sv&fe=ci"],
   },
   {
+    id: "stadium-visualization",
+    title: "Stadium Visualization",
+    description: `Stadium Visualization is a real-time 3D web application that allows users to explore and interact with stadium designs. Users can navigate through different sections, view seating arrangements, and visualize the stadium in various lighting conditions. Built with React and Babylon.js.`,
+    longDescription:
+      "A comprehensive tool that transforms 2D stadium plans into fully interactive 3D models. Users can upload their stadium plans, define sections and seating arrangements, then watch as the application generates a detailed 3D representation. Each section supports interactive actions, allowing users to navigate, customize materials, and visualize the stadium in real-time.",
+    tags: ["React", "Babylon.js", "WEBGPU"],
+    link: "https://dashing-duckanoo-b51ade.netlify.app/",
+    linkType: "live",
+    color: "#22d3ee",
+    mainImage: "/projects/Stadium/img1.png",
+    galleryImages: [
+      "/projects/Stadium/img0.png",
+      "/projects/Stadium/img2.png",
+      "/projects/Stadium/img3.png",
+      "/projects/Stadium/img4.png",
+      "/projects/Stadium/img5.png",
+    ],
+    videos: ["https://vimeo.com/1202830388?fl=pl&fe=sh"],
+  },
+  {
     id: "farmverse",
     title: "FarmVerse 3D",
     description:
       "FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.",
-    longDescription:
-      `FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.
+    longDescription: `FarmVerse 3D is an interactive digital twin of a palm farm environment, featuring a smart inspection robot integrated as an IoT platform. The robot navigates the 3D farm, monitors each palm’s health, and streams real-time data for analysis and decision-making.
        Built as a real-time 3D web experience, the project combines environmental simulation, IoT integration, and intelligent monitoring to demonstrate how robotics and digital twins can optimize modern agriculture.`,
     tags: ["React", "Babylon.js", "WEBGPU"],
     link: "https://roomvisualization.netlify.app/",
@@ -92,7 +111,9 @@ export const projects: Project[] = [
       "/projects/Apartment Generator/img3.png",
       "/projects/Apartment Generator/img4.png",
     ],
-    videos: ["https://drive.google.com/file/d/1-RDLcDKLPKOFxdh0Z0snncGskvy9q-JH/view"],
+    videos: [
+      "https://drive.google.com/file/d/1-RDLcDKLPKOFxdh0Z0snncGskvy9q-JH/view",
+    ],
   },
   {
     id: "shirt-configurator",
@@ -111,9 +132,7 @@ export const projects: Project[] = [
       "/projects/3D Shirt Generator/img2.jpg",
       "/projects/3D Shirt Generator/img3.jpg",
     ],
-    videos: [
-      "https://vimeo.com/1171047842?fl=pl&fe=cm"
-    ],
+    videos: ["https://vimeo.com/1171047842?fl=pl&fe=cm"],
   },
   {
     id: "room-simulation",
@@ -134,7 +153,9 @@ export const projects: Project[] = [
       "/projects/Room Simulation/img5.png",
       "/projects/Room Simulation/img6.png",
     ],
-    videos: ["https://drive.google.com/file/d/1pZwiR8Lqh-8FEo2yQtYxlvcoueP1TSz3/view?usp=sharing"],
+    videos: [
+      "https://drive.google.com/file/d/1pZwiR8Lqh-8FEo2yQtYxlvcoueP1TSz3/view?usp=sharing",
+    ],
   },
   {
     id: "smart-city",
@@ -170,7 +191,9 @@ export const projects: Project[] = [
       "/projects/Shed Configurator-V1/img5.png",
       "/projects/Shed Configurator-V1/img6.png",
     ],
-    videos: ["https://drive.google.com/file/d/18pXkQnHbyDeK9lZF9xiBSf33QsTwd7I2/view?usp=sharing"],
+    videos: [
+      "https://drive.google.com/file/d/18pXkQnHbyDeK9lZF9xiBSf33QsTwd7I2/view?usp=sharing",
+    ],
   },
   {
     id: "3d-avatar",
@@ -436,6 +459,8 @@ export const projects: Project[] = [
       "/projects/Elevator Simulation/img4.png",
       "/projects/Elevator Simulation/img5.png",
     ],
-    videos: ["https://drive.google.com/file/d/1st3xLQSnrqtrUA37W4Cuz9H_sroEzPVu/preview"],
+    videos: [
+      "https://drive.google.com/file/d/1st3xLQSnrqtrUA37W4Cuz9H_sroEzPVu/preview",
+    ],
   },
 ];
