@@ -30,7 +30,7 @@ const HeroSection = () => {
           <img
             src={heroBg}
             alt=""
-            className="w-full h-full object-cover opacity-60"
+            className="w-full h-full object-cover opacity-60 z-0"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background" />
         </div>
@@ -47,57 +47,82 @@ const HeroSection = () => {
           />
         </div>
 
+        {/* Full-height portrait, anchored right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
+          className="absolute inset-y-0 right-0 w-full lg:w-[58%] pointer-events-none"
+        >
+          {/* Ambient glow behind subject — blazer blue + trouser gold */}
+          <div className="absolute right-[8%] top-1/4 w-2/3 h-2/3 rounded-full bg-primary/20 blur-3xl" />
+          <div className="absolute right-0 bottom-0 w-1/2 h-1/2 rounded-full bg-accent/15 blur-3xl" />
+
+          {/* Feather the image into the page on every edge for a soft, elegant blend */}
+          <div className="absolute inset-0 bg-gradient-to-t" />
+          <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-background to-transparent" />
+
+          <img
+            src="/profile.png"
+            alt="Portrait of Karim Mohamed"
+            className="h-full w-[60%] object-none object-[center_top] opacity-30 lg:opacity-40 absolute right-0 top-[8%] scale-x-[-1] z-100000"
+            loading="eager"
+          />
+        </motion.div>
+
         {/* Content */}
-        <div className="relative z-10 text-center section-padding max-w-5xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6">
-              Senior 3D Web Engineer
-            </p>
-          </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.95] mb-8"
-          >
-            <span className="block">Karim</span>
-            <span className="block gradient-text">Mohamed</span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed text-balance"
-          >
-            Building interactive 3D experiences, configurators, and real-time
-            simulations for web and immersive platforms.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-            className="mt-12 flex items-center justify-center gap-6"
-          >
-            <a
-              href="#projects"
-              className="group relative px-8 py-3 rounded-lg font-medium text-sm bg-primary text-primary-foreground transition-all hover:shadow-[0_0_30px_hsl(var(--glow)/0.4)]"
+        <div className="relative z-10 section-padding max-w-6xl mx-auto w-full">
+          <div className="max-w-xl text-center lg:text-left mx-auto lg:mx-0">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
             >
-              View Projects
-            </a>
-            <a
-              href="#contact"
-              className="px-8 py-3 rounded-lg font-medium text-sm border border-border text-foreground hover:border-primary/50 transition-all"
+              <p className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6">
+                Senior 3D Web Engineer
+              </p>
+            </motion.div>
+
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[0.95] mb-8"
             >
-              Contact
-            </a>
-          </motion.div>
+              <span className="block">Karim</span>
+              <span className="block gradient-text">Mohamed</span>
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              className="text-base md:text-lg text-muted-foreground max-w-md mx-auto lg:mx-0 leading-relaxed text-balance"
+            >
+              Building interactive 3D experiences, configurators, and real-time
+              simulations for web and immersive platforms.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.9 }}
+              className="mt-12 flex items-center justify-center lg:justify-start gap-6"
+            >
+              <a
+                href="#projects"
+                className="group relative px-8 py-3 rounded-lg font-medium text-sm bg-primary text-primary-foreground transition-all hover:shadow-[0_0_30px_hsl(var(--glow)/0.4)]"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                className="px-8 py-3 rounded-lg font-medium text-sm border border-border text-foreground hover:border-primary/50 transition-all"
+              >
+                Contact
+              </a>
+            </motion.div>
+          </div>
         </div>
 
         {/* Scroll indicator */}

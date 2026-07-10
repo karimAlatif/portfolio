@@ -6,40 +6,41 @@
 
 @layer base {
   :root {
-    --background: 220 20% 4%;
-    --foreground: 210 20% 92%;
+    /* Palette sampled from portrait: slate navy backdrop, royal-blue blazer, warm tan trousers */
+    --background: 218 26% 5%;
+    --foreground: 213 22% 92%;
 
-    --card: 220 18% 7%;
-    --card-foreground: 210 20% 92%;
+    --card: 218 22% 8%;
+    --card-foreground: 213 22% 92%;
 
-    --popover: 220 18% 7%;
-    --popover-foreground: 210 20% 92%;
+    --popover: 218 22% 8%;
+    --popover-foreground: 213 22% 92%;
 
-    --primary: 175 80% 50%;
-    --primary-foreground: 220 20% 4%;
+    --primary: 219 74% 56%;
+    --primary-foreground: 213 30% 97%;
 
-    --secondary: 220 15% 12%;
-    --secondary-foreground: 210 20% 85%;
+    --secondary: 218 18% 13%;
+    --secondary-foreground: 213 20% 85%;
 
-    --muted: 220 15% 14%;
-    --muted-foreground: 215 12% 50%;
+    --muted: 218 16% 15%;
+    --muted-foreground: 216 12% 52%;
 
-    --accent: 175 60% 40%;
-    --accent-foreground: 220 20% 4%;
+    --accent: 35 55% 60%;
+    --accent-foreground: 218 26% 5%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 16%;
-    --input: 220 15% 16%;
-    --ring: 175 80% 50%;
+    --border: 218 16% 17%;
+    --input: 218 16% 17%;
+    --ring: 219 74% 56%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens */
-    --glow: 175 80% 50%;
-    --glow-secondary: 260 70% 60%;
-    --surface-glass: 220 20% 8%;
+    /* Custom tokens — blue (blazer) → gold (trousers) accent pairing */
+    --glow: 219 74% 56%;
+    --glow-secondary: 35 62% 60%;
+    --surface-glass: 218 24% 9%;
   }
 }
 
@@ -53,8 +54,8 @@
   }
 
   ::selection {
-    background: hsl(175 80% 50% / 0.3);
-    color: hsl(210 20% 98%);
+    background: hsl(219 74% 56% / 0.35);
+    color: hsl(213 30% 98%);
   }
 }
 
