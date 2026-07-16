@@ -58,7 +58,7 @@ export const projects: Project[] = [
     description: `Stadium Simulation is a real-time 3D web application Built a web-based stadium experience exploring crowd movement, gameplay moments, and different viewing perspectives.Just a visualization experiment I enjoyed working on.`,
     longDescription:
       "A real-time 3D web application that simulates a stadium environment, allowing users to explore crowd dynamics, gameplay moments, and various viewing perspectives. The project leverages advanced 3D rendering techniques to create an immersive experience, showcasing the potential of web-based simulations for sports and entertainment.",
-    tags: ["React", "Babylon.js", "WEBGPU"],
+    tags: ["React", "Cesium.js", "Three.js", "WEBGPU"],
     link: "#",
     linkType: "live",
     color: "#22d3ee",
